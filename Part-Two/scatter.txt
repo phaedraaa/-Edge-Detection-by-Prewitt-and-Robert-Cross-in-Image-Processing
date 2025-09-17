@@ -1,0 +1,16 @@
+ROM 0x0 0x3994
+{
+ROM 0x0 0x3994
+{
+*( +RO )
+}
+RAM 0x3994 0xCA23C
+{
+*( ram )
+*( +RW, +ZI )
+}
+CACHE 0xCA23C 0x51400
+{
+*( cache )
+}
+}
