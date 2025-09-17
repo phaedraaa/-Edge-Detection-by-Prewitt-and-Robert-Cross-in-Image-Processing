@@ -1,0 +1,20 @@
+ROM 0x0 0x39A8
+{
+ROM 0x0 0x39A8
+{
+*( +RO )
+}
+RAM 0x39A8 0xCA23C
+{
+*( ram )
+*( +RW, +ZI )
+}
+CACHE 0xCA23C 0x2000
+{
+*( cache_L2 )
+}
+CACHE2 0xCC23C 0xF0
+{
+*( cache_L1 )
+}
+}
